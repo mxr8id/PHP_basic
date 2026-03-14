@@ -17,7 +17,8 @@ echo "Integer: $integer, Float: $floating, String: $string, Bool: $boolean\n";
 $array = [1, 2, 3];
 $object = new stdClass();
 $object->name = "Test";
-
+$object->field = "Test Field";
+var_dump($object);
 // Типизация в функциях
 function add(int $a, int $b): int
 {
