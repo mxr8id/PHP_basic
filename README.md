@@ -16,9 +16,13 @@ PHP_basic/
 │   ├── 01-variables.md
 │   ├── 02-types.md
 │   └── ...
-└── examples/           # Рабочие примеры кода
-    ├── 01-variables/
-    ├── 02-types/
+├── examples/           # Рабочие примеры кода
+│   ├── 01-variables/
+│   ├── 02-types/
+│   └── ...
+└── tasks/              # Задачи по темам (20 вариантов на каждую лекцию)
+    ├── 01-variables.md
+    ├── 02-types.md
     └── ...
 ```
 
@@ -39,6 +43,10 @@ php examples/01-variables/basic.php
 # Через Laravel Sail (если используется)
 sail php examples/01-variables/basic.php
 ```
+
+## Задачи
+
+В папке `tasks/` для каждой лекции подготовлено **20 вариантов** заданий. Файлы именуются по номеру лекции: `01-variables.md`, `02-types.md` и т.д. Каждый вариант — отдельное практическое задание по теме.
 
 ## Лекции
 
